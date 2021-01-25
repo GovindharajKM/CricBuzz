@@ -1,0 +1,11 @@
+framework module AssesmentProfileModule {
+  umbrella header "AssesmentProfileModule.h"
+
+  export *
+  module * { export * }
+}
+
+module AssesmentProfileModule.Swift {
+    header "AssesmentProfileModule-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module LoadingIndicatorView {
+  umbrella header "LoadingIndicatorView.h"
+
+  export *
+  module * { export * }
+}
+
+module LoadingIndicatorView.Swift {
+    header "LoadingIndicatorView-Swift.h"
+    requires objc
+}
